@@ -1,0 +1,71 @@
+{
+  "pages":[
+     "pages/index/index",
+     "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",   
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/pay/pay",
+    "pages/deedback/feedback",
+    "pages/auth/auth",
+    "pages/login/login"
+    
+  ],
+
+  "window":{ 
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#aaaaff",
+    "navigationBarTitleText": "小杨商城",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#000000"
+  },
+  "tabBar": {
+    "list": [
+		  {
+			"pagePath": "pages/index/index",
+			"text": "首页商城",
+			"iconPath": "icon/-home.png",
+			"selectedIconPath": "icon/home.png"
+		  },
+		  {"pagePath": "pages/category/category",
+			"text": "分类",
+			"iconPath": "icon/-order.png",
+			"selectedIconPath": "icon/order.png"
+		  },
+		  { "pagePath": "pages/cart/cart",
+           "text": "购物车",
+           "iconPath": "icon/-shopping.png",
+           "selectedIconPath": "icon/shopping.png"
+          },
+          {
+			"pagePath": "pages/user/user",
+             "text": "个人中心",
+             "iconPath": "icon/-person.png",
+             "selectedIconPath": "icon/person.png"
+          }
+       
+      ],
+    "color": "#000000",
+    "selectedColor": "#aaaaff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black"
+   
+	
+
+
+
+
+
+
+
+
+  },
+  "navigationStyle": "custom",
+  "style": "v2",  
+  "sitemapLocation": "sitemap.json"
+}

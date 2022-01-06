@@ -1,0 +1,23 @@
+@import "./styles/iconfont.wxss";
+
+/* 初始化页面样式     轮播图，            导航标签*/
+page,view,text,swiper,swiper-itme,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+/* 主题颜色 通过变量来实现 */
+
+page{
+  /* 定义主题颜色 */
+  --themeColor:#aaaaff;
+
+  /* 定义统一的字体大小 
+  
+  1px = 2rpx
+  14px = 28rpx
+  */
+  font-size: 28rpx;
+
+}
